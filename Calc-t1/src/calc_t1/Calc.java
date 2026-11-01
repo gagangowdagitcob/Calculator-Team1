@@ -1,8 +1,4 @@
-/**
- * 
- */
 package calc_t1;
-
 
 public class Calc {
 
@@ -21,5 +17,10 @@ public class Calc {
             );
         }
         return (double) a / b;
+    }
+
+    // New method added by Team 1
+    public int subtract(int a, int b) {
+        return a - b;
     }
 }
